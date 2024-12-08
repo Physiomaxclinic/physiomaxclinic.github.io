@@ -8,7 +8,7 @@ function initMap() {
     }
   );
 
-  const attapurMarker = new google.maps.Marker({
+  const attapurMarker = new google.maps.Marker.AdvancedMarkerElement({
     position: { lat: 17.361542, lng: 78.428208 },
     map: attapurMap,
     title: "Physiomax Attapur",
@@ -23,7 +23,7 @@ function initMap() {
     }
   );
 
-  const lakdikapulMarker = new google.maps.Marker({
+  const lakdikapulMarker = new google.maps.Marker.AdvancedMarkerElement({
     position: { lat: 17.404561, lng: 78.460763 },
     map: lakdikapulMap,
     title: "Physiomax Lakdikapul",
